@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  MCDatabaseManager.h
 //  MusicClient
 //
 //  Created by Sergey Salnikov on 08.02.16.
 //  Copyright © 2016 Sergey Salnikov. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface ViewController : UIViewController
-
+@interface MCDatabaseManager : NSObject
 
 @end
-

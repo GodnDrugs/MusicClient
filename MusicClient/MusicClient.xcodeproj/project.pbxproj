@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B022F48B6AEFDF199F23C20 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D546C8B0C52411CFAFAE73B2 /* libPods.a */; };
 		64ED5D6D1C69221C007866EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64ED5D6C1C69221C007866EA /* main.m */; };
 		64ED5D701C69221C007866EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64ED5D6F1C69221C007866EA /* AppDelegate.m */; };
-		64ED5D731C69221C007866EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64ED5D721C69221C007866EA /* ViewController.m */; };
 		64ED5D761C69221C007866EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64ED5D741C69221C007866EA /* Main.storyboard */; };
 		64ED5D781C69221C007866EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64ED5D771C69221C007866EA /* Assets.xcassets */; };
 		64ED5D7B1C69221C007866EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64ED5D791C69221C007866EA /* LaunchScreen.storyboard */; };
+		64ED5D8C1C692613007866EA /* MCNetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 64ED5D8B1C692613007866EA /* MCNetworkingManager.m */; };
+		64ED5D8F1C69262C007866EA /* MCDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 64ED5D8E1C69262C007866EA /* MCDatabaseManager.m */; };
+		64ED5D931C6926E0007866EA /* MCSongCatalogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64ED5D911C6926E0007866EA /* MCSongCatalogViewController.m */; };
+		64ED5D941C6926E0007866EA /* MCSongCatalogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64ED5D921C6926E0007866EA /* MCSongCatalogViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +24,20 @@
 		64ED5D6C1C69221C007866EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		64ED5D6E1C69221C007866EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		64ED5D6F1C69221C007866EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		64ED5D711C69221C007866EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		64ED5D721C69221C007866EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		64ED5D751C69221C007866EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		64ED5D771C69221C007866EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64ED5D7A1C69221C007866EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64ED5D7C1C69221C007866EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64ED5D8A1C692613007866EA /* MCNetworkingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCNetworkingManager.h; sourceTree = "<group>"; };
+		64ED5D8B1C692613007866EA /* MCNetworkingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCNetworkingManager.m; sourceTree = "<group>"; };
+		64ED5D8D1C69262C007866EA /* MCDatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCDatabaseManager.h; sourceTree = "<group>"; };
+		64ED5D8E1C69262C007866EA /* MCDatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDatabaseManager.m; sourceTree = "<group>"; };
+		64ED5D901C6926E0007866EA /* MCSongCatalogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSongCatalogViewController.h; sourceTree = "<group>"; };
+		64ED5D911C6926E0007866EA /* MCSongCatalogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCSongCatalogViewController.m; sourceTree = "<group>"; };
+		64ED5D921C6926E0007866EA /* MCSongCatalogViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MCSongCatalogViewController.xib; sourceTree = "<group>"; };
+		C36378EEC31DE6D41A7ED6E1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D546C8B0C52411CFAFAE73B2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F807867C52DB53B9B61BCBE8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B022F48B6AEFDF199F23C20 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +57,8 @@
 			children = (
 				64ED5D6A1C69221C007866EA /* MusicClient */,
 				64ED5D691C69221C007866EA /* Products */,
+				82F050ECC43BB6579C931B1D /* Pods */,
+				80843EA009ED5066BA804ED4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +73,14 @@
 		64ED5D6A1C69221C007866EA /* MusicClient */ = {
 			isa = PBXGroup;
 			children = (
-				64ED5D6E1C69221C007866EA /* AppDelegate.h */,
-				64ED5D6F1C69221C007866EA /* AppDelegate.m */,
-				64ED5D711C69221C007866EA /* ViewController.h */,
-				64ED5D721C69221C007866EA /* ViewController.m */,
-				64ED5D741C69221C007866EA /* Main.storyboard */,
-				64ED5D771C69221C007866EA /* Assets.xcassets */,
-				64ED5D791C69221C007866EA /* LaunchScreen.storyboard */,
-				64ED5D7C1C69221C007866EA /* Info.plist */,
+				64ED5D891C6925E5007866EA /* Networking */,
+				64ED5D881C6925DF007866EA /* DB */,
+				64ED5D871C692504007866EA /* AppDelegate */,
+				64ED5D841C692434007866EA /* VC */,
+				64ED5D821C6923FF007866EA /* Models */,
+				64ED5D851C69244A007866EA /* UI */,
+				64ED5D831C692420007866EA /* Utility */,
+				64ED5D861C6924B7007866EA /* Resources */,
 				64ED5D6B1C69221C007866EA /* Supporting Files */,
 			);
 			path = MusicClient;
@@ -74,9 +89,95 @@
 		64ED5D6B1C69221C007866EA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				64ED5D7C1C69221C007866EA /* Info.plist */,
 				64ED5D6C1C69221C007866EA /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64ED5D821C6923FF007866EA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		64ED5D831C692420007866EA /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		64ED5D841C692434007866EA /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				64ED5D901C6926E0007866EA /* MCSongCatalogViewController.h */,
+				64ED5D911C6926E0007866EA /* MCSongCatalogViewController.m */,
+				64ED5D921C6926E0007866EA /* MCSongCatalogViewController.xib */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		64ED5D851C69244A007866EA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				64ED5D741C69221C007866EA /* Main.storyboard */,
+				64ED5D791C69221C007866EA /* LaunchScreen.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		64ED5D861C6924B7007866EA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				64ED5D771C69221C007866EA /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		64ED5D871C692504007866EA /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				64ED5D6E1C69221C007866EA /* AppDelegate.h */,
+				64ED5D6F1C69221C007866EA /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		64ED5D881C6925DF007866EA /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				64ED5D8D1C69262C007866EA /* MCDatabaseManager.h */,
+				64ED5D8E1C69262C007866EA /* MCDatabaseManager.m */,
+			);
+			name = DB;
+			sourceTree = "<group>";
+		};
+		64ED5D891C6925E5007866EA /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				64ED5D8A1C692613007866EA /* MCNetworkingManager.h */,
+				64ED5D8B1C692613007866EA /* MCNetworkingManager.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		80843EA009ED5066BA804ED4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D546C8B0C52411CFAFAE73B2 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82F050ECC43BB6579C931B1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C36378EEC31DE6D41A7ED6E1 /* Pods.debug.xcconfig */,
+				F807867C52DB53B9B61BCBE8 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64ED5D7F1C69221C007866EA /* Build configuration list for PBXNativeTarget "MusicClient" */;
 			buildPhases = (
+				C10F3781990776E99CDB9608 /* Check Pods Manifest.lock */,
 				64ED5D641C69221C007866EA /* Sources */,
 				64ED5D651C69221C007866EA /* Frameworks */,
 				64ED5D661C69221C007866EA /* Resources */,
+				D92764E7399BBD5031BCE2B8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -105,6 +208,7 @@
 		64ED5D601C69221C007866EA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = MC;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Sergey Salnikov";
 				TargetAttributes = {
@@ -137,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64ED5D7B1C69221C007866EA /* LaunchScreen.storyboard in Resources */,
+				64ED5D941C6926E0007866EA /* MCSongCatalogViewController.xib in Resources */,
 				64ED5D781C69221C007866EA /* Assets.xcassets in Resources */,
 				64ED5D761C69221C007866EA /* Main.storyboard in Resources */,
 			);
@@ -144,14 +249,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C10F3781990776E99CDB9608 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D92764E7399BBD5031BCE2B8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		64ED5D641C69221C007866EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64ED5D731C69221C007866EA /* ViewController.m in Sources */,
+				64ED5D931C6926E0007866EA /* MCSongCatalogViewController.m in Sources */,
 				64ED5D701C69221C007866EA /* AppDelegate.m in Sources */,
+				64ED5D8F1C69262C007866EA /* MCDatabaseManager.m in Sources */,
 				64ED5D6D1C69221C007866EA /* main.m in Sources */,
+				64ED5D8C1C692613007866EA /* MCNetworkingManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +401,7 @@
 		};
 		64ED5D801C69221C007866EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C36378EEC31DE6D41A7ED6E1 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MusicClient/Info.plist;
@@ -272,6 +413,7 @@
 		};
 		64ED5D811C69221C007866EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F807867C52DB53B9B61BCBE8 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MusicClient/Info.plist;
@@ -300,6 +442,7 @@
 				64ED5D811C69221C007866EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
