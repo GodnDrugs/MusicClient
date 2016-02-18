@@ -8,6 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
+
+FOUNDATION_EXTERN NSString *const kMCBaseUrl;
+
 @interface MCNetworkingManager : NSObject
+
++ (instancetype)sharedInstance;
+
+- (void)createModelsSongJSON:(void (^)(NSArray *))success fail:(void (^)(NSError *))failure;
 
 @end

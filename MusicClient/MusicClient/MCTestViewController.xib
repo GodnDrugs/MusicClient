@@ -4,9 +4,9 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MCSongCatalogViewController">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MCTestViewController">
             <connections>
-                <outlet property="collectionView" destination="Uao-ly-rF1" id="ehl-sh-55S"/>
+                <outlet property="collectionView" destination="0EZ-dB-Jt7" id="ErC-Z8-6R3"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -15,24 +15,23 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Uao-ly-rF1">
-                    <rect key="frame" x="0.0" y="64" width="320" height="416"/>
-                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="oxd-ub-udA">
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="0EZ-dB-Jt7">
+                    <rect key="frame" x="8" y="8" width="304" height="464"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="kgu-d4-pWD">
                         <size key="itemSize" width="50" height="50"/>
                         <size key="headerReferenceSize" width="0.0" height="0.0"/>
                         <size key="footerReferenceSize" width="0.0" height="0.0"/>
                         <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                     </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="Mun-Tv-IcS"/>
+                        <outlet property="delegate" destination="-1" id="hke-Yf-oSg"/>
+                    </connections>
                 </collectionView>
             </subviews>
-            <constraints>
-                <constraint firstAttribute="bottom" secondItem="Uao-ly-rF1" secondAttribute="bottom" id="Ao1-QJ-HlV"/>
-                <constraint firstItem="Uao-ly-rF1" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="PmC-yW-89R"/>
-                <constraint firstItem="Uao-ly-rF1" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="aFw-AE-viq"/>
-                <constraint firstAttribute="trailing" secondItem="Uao-ly-rF1" secondAttribute="trailing" id="jEj-Hx-idZ"/>
-            </constraints>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="-637" y="-108"/>
+            <point key="canvasLocation" x="258" y="220"/>
         </view>
     </objects>
 </document>
